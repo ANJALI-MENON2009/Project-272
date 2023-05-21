@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    text-align: center;
+    }
+
+h1{
+    color: red;
+    font-family: 'Gruppo', cursive;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    }
+
+h2{
+    color: white;
+    font-weight: bold;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    }
+
+/* p{
+    color: blue;
+    } */
+
+input{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    }
+
+label{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    }
+
+#get_otp_btn{
+    background-color:gold!important;
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 8px;
+    color: black;
+}    
+#submit_otp_btn {
+    background-color:gold!important;
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 8px;
+    color: black;
+}
+::selection {
+    color: black;
+    background: white;
+  }
+#submit_otp {
+    background-color:gold;
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 5px;
+    color: black;
+}  
+#error_text {
+    font-family: 'PT Serif', serif;
+}

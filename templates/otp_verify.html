@@ -1,0 +1,33 @@
+
+
+<html>
+<head>
+<title>OTP VERIFICATION</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+</head>
+<body >
+    
+<h1> OTP VERIFICATION</h1><hr>
+
+<form action="/otp" method="post"><br>
+
+    <label>MOBILE NO</label>
+    <input type="tel"  placeholder="Mobile Number" name="number"><br>
+
+    <label>Enter OTP:</label>
+    <input type="text" placeholder="Enter OTP" name="received_otp"><br>
+    
+    <input class="btn btn-success btn-lg" type="submit" id="submit_otp_btn" value="Submit OTP">
+
+</form>
+
+</body>
+</html>
+
